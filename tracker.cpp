@@ -45,7 +45,7 @@ std::string makeRequest(const std::string& url, const std::string& apiKey, const
     return response;
 }
 
-int main() {
+int tracker() {
 
 #ifdef BUNGIE_API_KEY
     std::string apiKey = BUNGIE_API_KEY;
